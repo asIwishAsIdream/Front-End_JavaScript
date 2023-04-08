@@ -1,0 +1,55 @@
+h1 {
+    color: brown;
+}
+
+* {
+    color: blue;
+}
+
+h2,
+p {
+    color: aquamarine;
+}
+
+/* 특정 클래스에 해당되는 요소에 대해 적용 */
+.coding {
+    color: chocolate;
+}
+
+/* 특정 클래스 + 특정 태그에 적용 */
+h2.coing {
+    color: yellow;
+}
+
+/* 특정 ID에 해당되는 요소에 적용 */
+#original {
+    color: darkmagenta;
+}
+
+/* 특정 태그 + 특정 ID에 해당되는 요소에 적용 */
+h2#original {
+    color: darkmagenta;
+}
+
+/*  부모 요소 내의 특정 자식 요소에 적용 */
+div p {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+div {
+    /* 상하 좌우 */
+    margin: 20px 30px;
+    /* margin: 20px 30px 20px 10px; 위에서 부터 시계방향으로 이동하여 값을 세팅해준다 */
+
+    /* 두께 속성 색깔로 지정할 수 있다 */
+    border: 6px solid blue;
+    padding: 4px;
+}
+
+div.sticky {
+    border: 10px solid black;
+    position: sticky;
+    top: 0;
+}
